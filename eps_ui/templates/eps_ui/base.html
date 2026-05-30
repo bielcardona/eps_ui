@@ -45,7 +45,7 @@
           <div class="btn-group">
             <a class="nav-link dropdown-toggle active text-white" href="#" role="button"
                data-bs-toggle="dropdown" aria-expanded="false">
-              {{ professor.name|default:user.username }}
+              {{ professor.name|default:user.get_full_name|default:user.username }}
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               {% if current_rol %}
