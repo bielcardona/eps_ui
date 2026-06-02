@@ -19,3 +19,12 @@
 .list-group-item-primary { background-color: #cce0f5; border-color: #005DB5; }
 a                      { color: #005DB5; }
 a:hover                { color: #00489c; }
+
+/* Alert amb color institucional UIB (blau diluït) */
+.alert-uib {
+  background-color: #e0edf8;
+  border-color: #a8c8ea;
+  color: #003870;
+}
+.alert-uib a             { color: #005DB5; font-weight: 500; }
+.alert-uib .text-muted   { color: #4a6580 !important; }
