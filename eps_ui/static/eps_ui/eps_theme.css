@@ -20,6 +20,10 @@
 a                      { color: #005DB5; }
 a:hover                { color: #00489c; }
 
+/* Nav pills */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link { background-color: #005DB5; }
+
 /* Alert amb color institucional UIB (blau diluït) */
 .alert-uib {
   background-color: #e0edf8;
